@@ -7,7 +7,7 @@ Hono runs on Cloudflare Workers, Bun, Lagon, and Node.js. So, you can run Remix 
 ## Features
 
 * Multi runtimes. Some application runs on Cloudflare Workers, Bun, Lagon, and Node.js in development.
-* Support variables including Cloudflare's variables for Cloudflare Workers and environment variables for Bun and Node.js.
+* Support variables including Cloudflare's variables for Cloudflare Workers and environment variables for Bun, Lagon, and Node.js.
 * Deploy to Cloudflare Workers.
 
 ## Development
