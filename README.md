@@ -2,11 +2,11 @@
 
 Run [Remix](https://remix.run) on [Hono](https://hono.dev).
 
-Hono runs on Cloudflare Workers, Bun, and Node.js. So, you can run Remix on Cloudflare Workers, Bun, and Node.js.
+Hono runs on Cloudflare Workers, Bun, Lagon, and Node.js. So, you can run Remix on Cloudflare Workers, Bun, Lagon, and Node.js.
 
 ## Features
 
-* Multi runtimes. Some application runs on Cloudflare Workers, Bun, and Node.js in development.
+* Multi runtimes. Some application runs on Cloudflare Workers, Bun, Lagon, and Node.js in development.
 * Support variables including Cloudflare's variables for Cloudflare Workers and environment variables for Bun and Node.js.
 * Deploy to Cloudflare Workers.
 
@@ -30,7 +30,7 @@ Cloudflare Workers:
 yarn dev:workers
 ```
 
-In Cloudflare Workers, reloading may be slow because Workers Sites need to be updated with every reload. It is recommended to use Node.js or Bun for a smoother development experience.
+In Cloudflare Workers, reloading may be slow because Workers Sites need to be updated with every reload. It is not recommended to use Cloudflare Worker for a smoother development experience.
 
 
 ## Deploy

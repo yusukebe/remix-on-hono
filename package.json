@@ -9,8 +9,10 @@
     "node:build": "esbuild --format=esm --bundle --platform=node --watch --outfile=./build/server.js ./server.node.ts",
     "workers": "wrangler dev server.workers.ts",
     "bun": "TOKEN=abc bun run --hot server.bun.ts",
+    "lagon": "lagon dev --env .env-lagon server.lagon.ts",
     "dev:node": "concurrently \"npm:build\" \"npm:dev:remix\" \"npm:node:build\" \"npm:node\"",
     "dev:bun": "concurrently \"npm:build\" \"npm:dev:remix\" \"npm:bun\"",
+    "dev:lagon": "concurrently \"npm:build\" \"npm:dev:remix\" \"npm:lagon\"",
     "dev:workers": "concurrently \"npm:build\" \"npm:dev:remix\" \"npm:workers\"",
     "typecheck": "tsc"
   },
