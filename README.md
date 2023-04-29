@@ -24,6 +24,12 @@ Bun:
 yarn dev:bun
 ```
 
+Lagon:
+
+```
+yarn dev:lagon
+```
+
 Cloudflare Workers:
 
 ```
