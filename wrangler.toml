@@ -1,0 +1,13 @@
+name = "remix-hono"
+
+main = "./server.ts"
+compatibility_date = "2023-04-01"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
+
+[vars]
+TOKEN = "abc"
